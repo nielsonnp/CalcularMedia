@@ -9,17 +9,17 @@ public class CalcularMedia {
 	public static void main(String[] args) {
 		 Scanner entrada = new Scanner(System.in);
 		 
-	double nota1;
-	double nota2;
+	float nota1;
+	float nota2;
 	
 	System.out.println("Digite a primeira nota : ");
-	nota1 = entrada.nota1();
+	nota1 = entrada.nextFloat();
 	
 	System.out.println("Digite a segunda nota : ");
-	nota2 = entrada.nota2();
+	nota2 = entrada.nextFloat();
 	
-	double media = (nota1 + nota2) / 2;
-	System.out.println(media);
+	float media = (nota1 + nota2) / 2;
+	System.out.println("Média = " + media);
 	
 		
 
