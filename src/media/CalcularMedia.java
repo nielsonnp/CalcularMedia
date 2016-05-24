@@ -19,10 +19,18 @@ public class CalcularMedia {
 	nota2 = entrada.nextFloat();
 	
 	float media = (nota1 + nota2) / 2;
-	System.out.println("Média = " + media);
+	System.out.println("Media = " + media);
 	
-		
-
+	if (media >=9.0) {
+        System.out.println("Excelente");
+    } else if (media >= 8.0){
+        System.out.println("Otimo");
+    } else if (media >= 7.0){
+        System.out.println("Bom");
+    } else {
+        System.out.println("Recuperacao"); 
+    }
+  			
 	}
 
 }
