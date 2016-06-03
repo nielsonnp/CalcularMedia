@@ -27,8 +27,17 @@ public class CalcularMedia3 {
         
          System.out.printf("O aluno %s tirou %.1f e %.1f"
              + " obtendo média final %.1f = ",nome,nota[0],nota[1],nota[2]);
-        
-		
+         
+         if (nota[2] >=9) {
+             System.out.println("Excelente");
+                 } else if (nota[2] >= 8){
+                     System.out.println("Ótimo");
+                 } else if (nota[2] >= 7){
+                     System.out.println("Bom");
+                 } else {
+                     System.out.println("Recuperação"); 
+                 }
+             	
 
 	}
 
